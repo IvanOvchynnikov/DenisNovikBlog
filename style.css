@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 943px;
+    margin: 0 auto;
+}
+body{
+    background: #FFFFFF;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 42px;
+}
+header{
+    margin-top: 33px;
+    font-weight: 700;
+
+}
+.home{
+    color: black !important;
+    font-size: 18px;
+
+}
+.nav__item{
+    color: #828282;
+    font-size: 18px;
+}
+.logo{
+    margin-top: 40px;
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.DenisNovik{
+    font-size: 47px;
+    font-weight: 700;
+
+}
+.UxDesigner{
+    font-weight: 200;
+    font-size: 18px;
+}
+.language{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+}
+.RU{
+    color: #828282;
+}
+.image{
+    margin-top: 50px;
+}
+.AboutMe{
+    background: #F6F6F6;
+    padding-top: 120px;
+    padding-bottom: 107px;
+    margin-top: 104px;
+    text-align: center;
+}
+.AboutMe__content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px auto 0 auto;
+    width: 485px;
+}
+.AboutMe__title{
+    color: #070707;
+    font-weight: 700;
+    font-size: 34px;
+    margin: 0 auto;
+}
+.skills{
+    margin-top: 91px;
+    padding-bottom: 110px;
+}
+.programs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+.program__item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills__title{
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+}
+.skills__subtitle{
+    margin-top: 69px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.program__text{
+    margin-top: 24px;
+    width: 80px;
+    color: #828282;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    height: 28px;
+
+}
+.program__stars{
+    margin-top: 40px;
+}
+.Portfolio{
+    background:#F6F6F6;
+    padding-top: 113px;
+    padding-bottom: 96px;
+}
+.Portfolio__title{
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+}
+.Portfolio__images{
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    gap: 99px;
+}
+.Portfolio__image-subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 45px;
+}
+footer{
+    padding-top: 114px;
+    padding-bottom: 123px;
+}
+.Contacts__title{
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+}
+.Contacts__subtitle{
+    margin: 20px auto 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 275px;
+}
+.Send_Message{
+    margin: 30px auto 0 auto;
+    display: block;
+    background: #070707;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+.Contacts__logos{
+    margin: 92px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.Contacts__end-text{
+    margin-top: 46px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+}
